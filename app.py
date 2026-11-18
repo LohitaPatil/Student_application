@@ -7,7 +7,7 @@ st.caption("ℹ️Fill in your and click View My profile")
 name = st.text_input("Student Name")
 usn = st.text_input("USN/Roll number")
 dept = st.selectbox("Department",["CSE", "ISE", "ECE", "EEE", "Mech", "Civil"])
-year = st.radio("Current year", ["1st Year", "2nd Year, "3rd Year", "4th Year"])
+year = st.radio("Current year", ["1st Year", "2nd Year", "3rd Year", "4th Year"])
 if st.button("View My Profile"):
     st.subheader("Profile submitted succesfully")
 
